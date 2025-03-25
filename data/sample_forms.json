@@ -1,0 +1,37 @@
+{
+  "forms": [
+    {
+      "name": "General Survey",
+      "url": "https://docs.google.com/forms/d/e/FORM_ID_PLACEHOLDER_1/viewform",
+      "fields": [
+        { "type": "text", "name": "name", "sample_value": "John Doe" },
+        {
+          "type": "email",
+          "name": "email",
+          "sample_value": "john@example.com"
+        },
+        {
+          "type": "radio",
+          "name": "gender",
+          "options": ["Male", "Female", "Other"]
+        }
+      ]
+    },
+    {
+      "name": "Feedback Form",
+      "url": "https://docs.google.com/forms/d/e/FORM_ID_PLACEHOLDER_2/viewform",
+      "fields": [
+        {
+          "type": "text",
+          "name": "feedback",
+          "sample_value": "Your product is great!"
+        },
+        {
+          "type": "radio",
+          "name": "rating",
+          "options": ["1", "2", "3", "4", "5"]
+        }
+      ]
+    }
+  ]
+}

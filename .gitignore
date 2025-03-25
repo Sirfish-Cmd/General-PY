@@ -1,0 +1,51 @@
+###########################################
+# PYTHON ARTIFACTS
+###########################################
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+###########################################
+# ENVIRONMENTS
+###########################################
+# Virtual environments
+venv/
+env/
+ENV/
+
+###########################################
+# TESTING
+###########################################
+# Testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+###########################################
+# DEVELOPMENT TOOLS
+###########################################
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+###########################################
+# SYSTEM FILES
+###########################################
+# OS specific files
+.DS_Store
+Thumbs.db
+
+###########################################
+# SELENIUM
+###########################################
+# Selenium driver binaries
+drivers/
+*.log
